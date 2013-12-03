@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<link href="css/detailPage.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+function clearText(field){
+
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+
+}
+</script>
+</head>
+<body>
+<div id="medicin_search_container">
+	
+    <div id="medicin_search_banner"></div>
+    
+    <div id="medicin_search_menu_search">
+        <div id="medicin_search_menu">
+            <ul>
+                 <li><a href="#">首页  </a></li>
+                <li><a href="#">在线测试</a></li>
+                <li><a href="#">课件下载</a></li>
+                <li><a href="#">讨论互动</a></li>
+                 <li><a href="#">个人中心</a></li>
+                <li><a href="#" class="last">关于我们</a></li>
+            </ul>    	
+        </div> <!-- end of menu -->
+        
+        <div id="search_section">
+            <form action="#" method="get">
+                <input type="text" value="请输入搜索的内容" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)"  />
+              <input type="submit" name="Search" value="搜索" alt="Search" id="searchbutton" title="Search" onblur="clearText(this)"/>
+            </form>
+        </div> 
+        
+        <div class="cleaner"></div>	
+	</div>
+    <div id="medicin_search_content"></div>
+       <div id="medcine_footer">
+        <ul class="footer_list">
+            <li><a href="index.html" class="current">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li class="last"><a href="#">Contact Us</a></li>
+        </ul> 
+</div>
+    
+    
+    
+
+ 
+</div>
+</body>
+</html>
