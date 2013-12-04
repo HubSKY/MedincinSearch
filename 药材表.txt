@@ -1,0 +1,10 @@
+CREATE TABLE MedicinalHerbs 
+(
+Mno char(20) PRIMARY KEY,
+Mname char(15) NOT NULL UNIQUE,
+Mcategory char(10) NOT NULL,
+Mshape char(20),
+Mtaste char(10) NOT NULL,
+Mfunction char(20) NOT NULL,
+Mdescribe char(40)
+)

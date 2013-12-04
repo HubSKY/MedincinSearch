@@ -1,0 +1,9 @@
+CREATE TABLE User 
+(
+Uno char(20) PRIMARY KEY,
+Uname char(15) NOT NULL UNIQUE,
+Upassword char(15) NOT NULL,
+Unickname char(10) UNIQUE,
+Usex char(4) CHECK ( (Usex in ('ÄÐ','Å®'))),
+Uemail char(20)
+)

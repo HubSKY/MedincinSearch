@@ -1,0 +1,8 @@
+CREATE TABLE Review 
+(
+Uno char(20) REFERENCES User (Uno) ON DELETE CASCADE ON UPDATE CASCADE,
+Mno char(20) REFERENCES MedicinalHerbs (Mno) ON DELETE CASCADE ON UPDATE CASCADE,
+Rcontent char(60) NOT NULL,
+Rtime char(12) NOT NULL,
+PRIMARY KEY (Uno,Mno)
+)

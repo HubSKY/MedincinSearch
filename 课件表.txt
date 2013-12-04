@@ -1,0 +1,8 @@
+CREATE TABLE Courseware 
+(
+Cno char(20) PRIMARY KEY,
+Cname char(20) NOT NULL UNIQUE,
+Ccount int NOT NULL DEFAULT 0,
+Curl char(20) NOT NULL UNIQUE,
+Cbrifintro char(40)
+)
