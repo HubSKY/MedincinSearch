@@ -1,0 +1,10 @@
+CREATE TABLE Collection 
+(
+Uno char(20) REFERENCES Student (Uno) ON DELETE CASCADE ON UPDATE CASCADE,
+Mno char(20) REFERENCES MedicinalHerbs (Mno) ON DELETE CASCADE ON UPDATE CASCADE,
+Ctime char(12) NOT NULL,
+Mpicture nchar(40),
+Mdescribe nchar(40),
+MdetailIntro nchar(300),
+PRIMARY KEY (Uno,Mno)
+)

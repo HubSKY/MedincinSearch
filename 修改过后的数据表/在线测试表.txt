@@ -1,0 +1,13 @@
+CREATE TABLE Courseware 
+(
+TestContent char(10) PRIMARY KEY,
+TestAnls nchar(50) NOT NULL UNIQUE,
+TestBnls nchar(50) NOT NULL UNIQUE,
+TestCnls nchar(50) NOT NULL UNIQUE,
+TestDnls nchar(50) NOT NULL UNIQUE,
+RightAnswer  nchar(50)£¬
+Explain  nchar(50)£¬
+
+)
+
+
