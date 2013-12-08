@@ -1,0 +1,25 @@
+
+
+#gallary{
+	width: 810;
+	height: 600px;
+	margin-left: 80px;
+
+	
+	}
+#medicin_search_content {
+	width: 960px;
+	height: 600px;
+	background:url(../images/content_background.jpg);
+
+}
+
+#searchPage_footer{
+	width:960px;
+	height:30px;
+	padding-bottom:5px;
+	border:#F30 solid;
+	float:left;
+	
+	
+		}

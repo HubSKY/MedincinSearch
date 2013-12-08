@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+	<galleryName>3D Wall Gallery</galleryName>
+	<settings>
+		<imagesFolder>gallery/images/</imagesFolder>
+		<thumbnailsFolder>gallery/images/</thumbnailsFolder>
+
+		<visibleMatrix rows="3" />
+		<zoom>1</zoom>
+		<image scaleMode="fill" bgColor="0x000000" bgAlpha="50" thumbProportion="true"/>
+		<imageCaption position="top" color="0xFFFFFF" bgColor="0x000000" bgAlpha="80" fontName="Arial" fontSize="11" visibleMode="always"/>
+		<thumbnail width="200" height="150" distance="5" />
+		<preloader
+			stripesAlpha="45"
+			barColor="0x000000"
+			barAlpha="50"
+			bgColor="0x000000"
+			bgAlpha="10"
+			innerShadow="10"
+			dropShadow="30"
+		/>
+		<scrollSpeed>0.3</scrollSpeed>
+		<showReflections>true</showReflections>
+		<reflectionAlpha>80</reflectionAlpha>
+		<useHighlight>true</useHighlight>
+	</settings>
+	<items>
+		<item source="1.jpg" thumb="t1.jpg" description="Image 1" link="" target="_blank"/>
+		<item source="2.jpg" thumb="t2.jpg" description="Image 2" link="" target="_blank"/>
+		<item source="3.jpg" thumb="t3.jpg" description="Image 3" link="" target="_blank"/>
+		<item source="4.jpg" thumb="t4.jpg" description="Image 4" link="" target="_blank"/>
+		<item source="5.jpg" thumb="t5.jpg" description="Image 5" link="" target="_blank"/>
+		<item source="6.jpg" thumb="t6.jpg" description="Image 6" link="" target="_blank"/>
+		<item source="7.jpg" thumb="t7.jpg" description="Image 7" link="" target="_blank"/>
+		<item source="8.jpg" thumb="t8.jpg" description="Image 8" link="" target="_blank"/>
+		<item source="9.jpg" thumb="t9.jpg" description="Image 9" link="" target="_blank"/>
+		<item source="10.jpg" thumb="t10.jpg" description="Image 10" link="" target="_blank"/>
+		<item source="11.jpg" thumb="t11.jpg" description="Image 11" link="" target="_blank"/>
+		<item source="12.jpg" thumb="t12.jpg" description="Image 12" link="" target="_blank"/>
+		<item source="13.jpg" thumb="t13.jpg" description="Image 13" link="" target="_blank"/>
+		<item source="14.jpg" thumb="t14.jpg" description="Image 14" link="" target="_blank"/>
+		<item source="15.jpg" thumb="t15.jpg" description="Image 15" link="" target="_blank"/>
+		<item source="16.jpg" thumb="t16.jpg" description="Image 16" link="" target="_blank"/>
+		<item source="17.jpg" thumb="t17.jpg" description="Image 17" link="" target="_blank"/>
+		<item source="18.jpg" thumb="t18.jpg" description="Image 18" link="" target="_blank"/>
+		<item source="19.jpg" thumb="t19.jpg" description="Image 19" link="" target="_blank"/>
+		<item source="20.jpg" thumb="t20.jpg" description="Image 20" link="" target="_blank"/>
+		<item source="21.jpg" thumb="t21.jpg" description="Image 21" link="" target="_blank"/>
+		<item source="22.jpg" thumb="t22.jpg" description="Image 22" link="" target="_blank"/>
+		<item source="23.jpg" thumb="t23.jpg" description="Image 23" link="" target="_blank"/>
+		<item source="24.jpg" thumb="t24.jpg" description="Image 24" link="" target="_blank"/>
+		<item source="25.jpg" thumb="t25.jpg" description="Image 25" link="" target="_blank"/>
+		<item source="26.jpg" thumb="t26.jpg" description="Image 26" link="" target="_blank"/>
+		<item source="27.jpg" thumb="t27.jpg" description="Image 27" link="" target="_blank"/>
+		<item source="28.jpg" thumb="t28.jpg" description="Image 28" link="" target="_blank"/>
+		<item source="29.jpg" thumb="t29.jpg" description="Image 29" link="" target="_blank"/>
+		<item source="30.jpg" thumb="t30.jpg" description="Image 30" link="" target="_blank"/>
+	</items>
+</gallery>

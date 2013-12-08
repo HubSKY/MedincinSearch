@@ -1,0 +1,60 @@
+
+.login-text01 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #7F9DB9;
+	text-decoration: none;
+}
+a.login-text01:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.login-text02 {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #7F9DB9;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 4px;
+}
+.login-text03 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0E69C7;
+	text-decoration: underline;
+}
+a.login-text03:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.login-text04 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #ACACAC;
+	text-decoration: none;
+	line-height: 20px;
+}
+a.login-text04:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+	line-height: 20px;
+}
+.login-text05 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #6890D2;
+	text-decoration: none;
+}
+.login-text06 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
