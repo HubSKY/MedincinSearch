@@ -1,0 +1,65 @@
+﻿body
+{
+    font: 10.5pt/1.5 "华文新魏";
+}
+#container
+{
+    padding: 0 0 20px;
+    width:auto;
+}
+#container
+{
+    margin: 0 auto;
+}
+#top
+{
+    height: 50px;
+    line-height: 20px;
+    padding: 10px;
+    color: White;
+    background: #102A49;
+    font-size: 30px;
+}
+#bottom
+{
+    line-height: 30px;
+    text-align: center;
+    background: #e5edef;
+}
+
+
+.content
+{
+    font-size: large;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+
+
+
+form
+{
+    width:370px;
+    margin:0 auto;
+    height:600px;
+    margin-top:100px;
+}
+
+.formLabel,.formData
+{
+    float:left;
+    height: 20px;
+   
+   
+}
+
+#.tab
+{
+    height:500px;
+    }
+
+.clearFloat
+{
+    clear:both;
+}
