@@ -1,0 +1,23 @@
+create procedure AddStudent
+(@UnoV nchar(20),
+@UnicknameV varchar(50), 
+@UpasswordV varchar(50),
+@UsexV char(4),
+@UemailV nvarchar(50),
+@UqqV nvarchar(50),
+@registerTimeV datetime
+)
+AS 
+ INSERT INTO Student
+ VALUES 
+ (@UnoV, @UnicknameV, @UpasswordV , @UsexV,@UemailV,@UqqV ,@registerTimeV)
+
+
+
+
+create procedure searchMedincine
+(
+@medincineName nchar(15)
+)
+as
+select * from MedicinalHerbs where Mname like  '%'+@medincineName+'%'
