@@ -1,0 +1,5 @@
+G:\中医药搜索学习系统\message\Message\bin\Message.dll
+G:\中医药搜索学习系统\message\Message\bin\Message.pdb
+G:\中医药搜索学习系统\message\Message\obj\Debug\ResolveAssemblyReference.cache
+G:\中医药搜索学习系统\message\Message\obj\Debug\Message.dll
+G:\中医药搜索学习系统\message\Message\obj\Debug\Message.pdb
