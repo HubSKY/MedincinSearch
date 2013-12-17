@@ -1,0 +1,83 @@
+﻿
+#main
+{
+    float: left;
+}
+
+
+.message
+{
+    border: 2px solid #ddd;
+    font-size: small;
+    width: 682px;
+}
+.message-info
+{
+    line-height: 30px;
+    background: url(.../image/box_tit_bg.gif);
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    width: 662px;
+}
+
+
+
+.message-time
+{
+    padding: 0 0 0 20px;
+}
+.message-userinfo
+{
+    float: left;
+    width: 155px;
+    padding-left: 10px;
+    line-height: 1.8;
+    background-color :#e5edef;
+    height:245px;
+}
+.message-content
+{
+    float: left;
+    width: 485px;
+    border-left: 1px solid green;
+    line-height: 1.8;
+    padding: 5px 10px;
+}
+.message-admin-replay
+{
+    color: red;
+    border: 1px dotted green;
+    margin: 0 4px 8px;
+    padding: 8px;
+}
+
+.message-user-replay
+{
+    color: Green;
+    border: 1px dotted green;
+    margin: 0 4px 8px;
+    padding: 8px;
+}
+
+#sidebar
+{
+    border: 2px solid green;
+    width: 250px;
+    float: right;
+    height: 1000px;
+}
+
+.pager
+{
+    margin-top: 20px;
+    text-align: center;
+}
+#footer
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.float-right
+{
+    margin-left: 430px;
+}
