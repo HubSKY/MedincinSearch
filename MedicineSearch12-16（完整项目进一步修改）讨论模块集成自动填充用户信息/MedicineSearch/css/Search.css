@@ -1,0 +1,163 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	background: #e7e9c3;
+}
+a:link, a:visited { color: #af1313; text-decoration: underline; font-weight: normal; } 
+a:active, a:hover { color: #996600; text-decoration: none; }
+ #medicin_search_login {
+	float: left;
+	margin: 200px 0 0 750px;
+	width: 200px;
+	height: 55px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#medicin_search_login ul li{
+	display: inline;
+}
+
+
+
+img {
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin: 0px;
+    padding: 0px;
+    width: 198px;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.fl { float: left; }
+.fr { float: right }
+
+#medicin_search_container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#medicin_search_banner {
+	width: 960px;
+	height: 288px;
+	margin: 0 auto;
+    background: url(../images/chineseMedicin.jpg) no-repeat;
+	border-bottom: 5px solid #cfd389;
+}
+
+
+
+
+#medicin_search_menu_search {
+	clear: both;
+	width: 960px;
+	height: 50px;
+	background: url(../images/medicin_searchmenu_bg.jpg) repeat-x;	
+}
+
+#medicin_search_menu {
+	float: left;
+	width: 650px;
+	height: 50px;
+}
+
+#medicin_search_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#medicin_search_menu ul li {
+	display: inline;
+}
+
+#medicin_search_menu ul li a {
+	float: left;
+	display: block;
+	padding: 0 30px;
+	height: 35px;
+	padding-top: 18px;
+	text-align: center;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;	
+	font-weight: bold;
+	outline: none;
+}
+
+#medicin_search_menu li a:hover, #medicin_search_menu li .current {
+	color: #ffffff;
+	background: url(../images/medicin_search_menu_hover.jpg) repeat-x;	
+}
+/* end of menu*/
+
+#medicin_search_menu_search #search_section {
+	float: right;
+	margin: 10px 20px 0 0;
+	width: 275px;
+}
+
+#search_section form {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+#searchfield {
+	height: 15px;
+	width: 180px;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 13px;
+	font-variant: normal;
+	line-height: normal;
+	background: #af1313;
+	border: 1px solid #ffffff;	
+}
+
+#searchbutton {
+ 	height: 29px;
+	margin: 0 0 0 10px;
+	padding: 0 6px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #333333;
+	background: none; 
+	border: none;
+}
+
+#medicin_search_content {
+	width: 480px;
+	height: 480px;
+	border:#093 solid;
+	float:left;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
